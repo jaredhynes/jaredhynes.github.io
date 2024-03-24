@@ -1,7 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Fascinating World of Insects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>The Fascinating World of Insects</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">About Insects</a></li>
+      <li><a href="#">Insect Anatomy</a></li>
+      <li><a href="#">Importance of Insects</a></li>
+      <li><a href="#">Cool Insect Facts!</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>Welcome to the Wonderful World of Insects!</h2>
+      <p>Insects are the most diverse group of animals on Earth. 
+      There are over one million known species, and scientists estimate 
+      there could be millions more waiting to be discovered! Explore 
+      this website to learn more about these fascinating creatures.</p>
+      <img src="images/insect.jpg" alt="A close-up photo of a colorful insect">
+    </section>
+
+    <section id="insect-types">
+      <h2>Did you know?</h2>
+      <p>Insects come in all shapes and sizes! Click a button below to 
+        reveal a fun fact about a specific type of insect.</p>
+      <button onclick="revealFact('butterfly')">Butterflies</button>
+      <button onclick="revealFact('beetle')">Beetles</button>
+      <button onclick="revealFact('bee')">Bees</button>
+      <p id="fact-text"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Insect Enthusiasts</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
