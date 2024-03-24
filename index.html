@@ -25,14 +25,15 @@
       <p>Bees are the apart of most diverse group of animals on Earth, Insects!
       There are over one million known species, and scientists estimate 
       there could be millions more waiting to be discovered! Explore this
-      website to learn more one particularly interesting, bees.</p>
+      website to learn more one particularly interesting, bees. There may be a 
+      visit from some other insects on the screen...</p>
       <img src="bee.jpg" alt="A close-up photo of a bee">
     </section>
 
     <section id="insect-types">
       <h2>Did you know?</h2>
-      <p>Insects come in all shapes and sizes! Click a button below to 
-        reveal a fun fact about a specific type of insect.</p>
+      <p>Click a button below to 
+        reveal a fun fact about a bees.</p>
       <button onclick="revealFact('fact1')">Fact1</button>
       <button onclick="revealFact('fact2')">Fact2</button>
       <button onclick="revealFact('fact3')">Fact3</button>
@@ -43,6 +44,12 @@
   <footer>
     <p>Jared Hynes, 2024</p>
   </footer>
+  <script type='text/javascript' src='bug-min.js'></script>
+  <script type='text/javascript'>
+    // default fruit fly bug:
+    new BugController({
+    });
+  </script>
 
   <script src="script.js"></script>
 </body>
