@@ -1,13 +1,13 @@
 function revealFact(insectType) {
   let factText;
   switch (insectType) {
-    case "butterfly":
+    case "fact1":
       factText = "Butterflies can taste with their feet!";
       break;
-    case "beetle":
+    case "fact2":
       factText = "There are more species of beetles than any other animal group!";
       break;
-    case "bee":
+    case "fact3":
       factText = "Honeybees can fly up to 15 miles per hour!";
       break;
     default:
