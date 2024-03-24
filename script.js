@@ -13,4 +13,4 @@ function revealFact(insectType) {
       default:
         factText = "Wow! Insects are amazing!";
     }
-    document.getElementById("fact-text").innerHTML = fact
+    document.getElementById("fact-text").innerHTML = factText;
